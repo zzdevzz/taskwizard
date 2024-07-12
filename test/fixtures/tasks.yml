@@ -1,0 +1,21 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  description: MyString
+  priority: MyString
+  status: 1
+  completed: false
+  date_created: 2024-07-13 00:08:18
+  date_completed_by: 2024-07-13 00:08:18
+  category: one
+
+two:
+  name: MyString
+  description: MyString
+  priority: MyString
+  status: 1
+  completed: false
+  date_created: 2024-07-13 00:08:18
+  date_completed_by: 2024-07-13 00:08:18
+  category: two
