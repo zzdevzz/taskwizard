@@ -14,7 +14,9 @@ user1 = User.create(email:"d3@test.com", password: "123456")
 category_finance = Category.create(name: "finance", user: user1)
 category_housework = Category.create(name: "housework", user: user1)
 
-current_time = Time.now.strftime("%d/%m/%Y %H:%M")
+task1 = Task.create(name: "Finish the application",
+                    description: "Do it asap to be a millionaire",
+                    category: category_finance,
+                    priority: :high)
 
-
-task1 =
+task2 = Task.create(name: "Mop the house", category: category_housework)
